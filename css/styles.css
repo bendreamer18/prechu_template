@@ -1,0 +1,193 @@
+* {
+	font-family: "Open Sans";
+}
+body {
+	background: url("../images/head-bg.png") #000;
+}
+#header {
+	height: 90px;
+	border-radius: 0px;
+	background: url("../images/head-bg.png") #000;
+}
+.navbar {
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+.navbar-collapse {
+	border: none;
+}
+.nav, .navbar-nav {
+	margin-top: 38px;
+}
+.nav, .navbar-nav ul li {
+	float: right;
+	font-size: 18px;
+	margin-right: 50px;
+}
+/*#logo {
+	margin-right: 30px;
+	height: 85px;
+}*/
+#log_in_but {
+	color: #5094f2;
+}
+.nav, .navbar-nav {
+	padding-bottom: 0px;
+}
+.nav, .navbar-nav li a {
+	font-size: 18px;
+	color: #413f3f;
+	margin-left: 5px;
+	line-height: 20px;
+}
+.navbar-nav li a:hover {
+	border-bottom: solid 2px #5094f2;
+}
+.carousel-control {
+	width: 0%;
+}
+#carousel {
+	margin: 0px auto;
+}
+.img-responsive {
+	float: left;
+	margin-left: 40px;
+}
+.navbar-header button {
+	background: #5094f2;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.container .row {
+	height: 400px;
+}
+#circles {
+	margin-top: 55px;
+}
+	#block1 .fa-circle {
+		color: #5094f2;
+	}
+	#block2 .fa-circle {
+		color: #d94748;
+	}
+	#block3 .fa-circle {
+		color: #ebbb11;
+	}
+	.col-md-4 {
+		text-align: center;
+	}
+	.icon_h {
+		color: #418df7;
+		font-size: 20px;
+	}
+	.icon_text {
+		color: #565353;
+	}
+	.icon_content {
+		margin-bottom: 20px;
+	}
+	.icon_content a {
+		text-decoration: none;
+	}
+	.icon_content a:hover {
+		text-decoration: none;
+	}
+#after_icons .row {
+	padding-top: 0px;
+	margin-top: 20px;
+	height: 300px;
+	border-bottom: solid 1px #e5e5e5;
+	/*padding-bottom: 30px;*/
+	overflow: hidden;
+}
+#af_ic_2 {
+	margin-left: 30px;
+}
+/*#after_icons .row .col-md-4 {
+	background: red;
+}
+#after_icons .row .col-md-5 {
+	background: blue;
+}*/
+#af_ic_1 h3 {
+	font-size: 27px;
+	color: #484b4e;
+	margin-left: -20px;
+}
+#basket-image {
+	margin-top: 15px;
+}
+#af_ic_2 {
+	color: #484b4e;
+	font-size: 14px;
+}
+.icon_underline { /*Подчеркивающая блоки иконок линия в моб.версии*/
+	height: 1px;
+	background: #e5e5e5;
+	margin-top: 20px;
+}
+#rights .row { 					/*Ряд для строки копирайта*/
+	margin-top: 35px;
+	color: #aea2a2;
+	text-align: center;
+	height: 60px;
+}
+.input { 			/*Стили для полей формы*/
+	height: 40px;
+	margin-left: 50px;
+	margin-top: -3px;
+	border: none;
+	border-bottom: solid 1px #e5e5e5;
+	width: 165px;
+}
+.fa-envelope-o, .fa-key, .fa-user, .fa-comment-o {			/*Стили для иконок формы*/
+	position: absolute;
+	margin-top: 9px;
+	float: left;
+	color: #646060;
+}
+							/*Стили для модального окна Авторизации*/
+.modal-header {
+	border: none;
+}
+.modal-1, .modal-2 {
+	padding-bottom: 10px;
+}
+#modal-1 .modal-body button {
+	background: #5094f2;
+	float: right;
+}
+.modal-body button:hover {
+	border: none;
+	background: #2863b4;
+}
+						/*===============================*/
+
+					 /*Модальное окно для формы Contacts */
+/*#e_c_input, #p_c_input {
+	height: 40px;
+	border: none;
+	border-bottom: solid 1px #e5e5e5;
+	width: 160px;
+}*/
+						/*При фокусе текст placeholder'a исчезает*/
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+.modal-body textarea {
+	border-radius: 3px;
+	resize: none;
+	/*border: none;*/
+	border: solid 1px #e5e5e5;
+}
+#modal-2 .modal-body button {
+	background: #5094f2;
+}
+#modal-2 .modal-body button:hover {
+	border: none;
+	background: #2863b4;
+}
+							/*==============================*/
