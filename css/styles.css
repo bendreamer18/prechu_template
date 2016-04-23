@@ -12,6 +12,7 @@ body {
 .navbar {
 	margin-bottom: 0px;
 	border-bottom: none;
+	overflow: inherit;
 }
 .navbar-collapse {
 	border: none;
@@ -24,10 +25,10 @@ body {
 	font-size: 18px;
 	margin-right: 50px;
 }
-/*#logo {
-	margin-right: 30px;
-	height: 85px;
-}*/
+.navbar .container {
+	padding-right: 0px;
+	margin-right: 0px;
+}
 #log_in_but {
 	color: #5094f2;
 }
@@ -37,7 +38,7 @@ body {
 .nav, .navbar-nav li a {
 	font-size: 18px;
 	color: #413f3f;
-	margin-left: 5px;
+	margin-left: 2px;
 	line-height: 20px;
 }
 .navbar-nav li a:hover {
@@ -127,6 +128,9 @@ body {
 	background: #e5e5e5;
 	margin-top: 20px;
 }
+/*#circles .row .col-xs-12 {
+	border: solid 2px red;
+}*/
 #rights .row { 					/*Ряд для строки копирайта*/
 	margin-top: 35px;
 	color: #aea2a2;
